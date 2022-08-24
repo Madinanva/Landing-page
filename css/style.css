@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+#header{
+border: #fff;
+overflow: auto;
+padding: 20px 4rem;
+}
+
+#header .logo{
+    float: left;
+}
+
+.logo a{
+    color: #212925;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+#header .navbar{
+    float: right;
+}
+
+.link{
+    color: #fff;
+    font-size: 18px;
+}
+
+.navbar a{
+    margin-left: 20px;
+}
+
+.btn_sign{
+background-color: #0d6efd;
+color: #fff;
+padding: 11px 20px;
+border-radius: 4px;
+}
+
+#Sign{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-masthead.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 13rem 0;
+}
+
+.sign-text{
+width: 45%;
+margin: auto;
+}
+
+.sign-text h1{
+    font-size: 40px;
+    color: #fff;
+}
+
+.sign-form{
+margin-top: 35px;
+}
+
+.sign-form input{
+    padding: 12px 0 12px 15px;
+    width: 30%;
+    outline: none;
+    bottom: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.sign-form button{
+background-color: #0d6efd;
+color: #fff;
+padding: 11px 20px;
+border-radius: 5px;
+border: none;
+font-weight: bold;
+margin-left: 20px;
+}
+
+#First{
+    text-align: left;
+    background-color: #fff;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+#First h2{
+    font-size: 1.5rem;
+    color: #212529;
+}
+
+#First p{
+    color: #212529;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+#Second{
+    text-align: left;
+    background-color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+#Second h2{
+    font-size: 1.5rem;
+    color: #212529;
+}
+
+#Second p{
+    color: #212529;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+#Third{
+    text-align: left;
+    background-color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+#Third h2{
+    font-size: 1.5rem;
+    color: #212529;
+}
+
+#Third p{
+    color: #212529;
+    font-size: 1.25rem;
+    margin-bottom: 4rem;
+}
+
+i{
+    background-color: #0d6efd;
+    color: #fff;
+    border-radius: 5px;
+    padding: 30px;
+    font-size: 15px;
+}
+
+#Browse{
+    padding: 5rem;
+    background-color: #F2F6FC;
+    overflow: auto;
+}
+
+.br-text{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto 50px;
+}
+
+.br-text h2{
+    color: #212529;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.br-text p{
+    color: #212529;
+    font-size: 18px;
+}
+
+.br-all .box{
+    width: 70%;
+    float: left;
+    margin: 0 1% 50PX;
+    border-radius: 5px;
+}
+
+.br-all .box .top img{
+    width: 100%;
+    vertical-align: bottom;
+    border-radius: 7px 7px 0 0;
+    margin-bottom: 10px;
+}
+
+#Fifth{
+    text-align: left;
+    background-color: #fff;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+#Fifth h2{
+    font-size: 1.5rem;
+    color: #212529;
+}
+
+#Fifth p{
+    color: #212529;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+#Sixth{
+    text-align: left;
+    background-color: #fff;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+#Sixth h2{
+    font-size: 1.5rem;
+    color: #212529;
+}
+
+#Sixth p{
+    color: #212529;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+#Seventh{
+    text-align: left;
+    background-color: #fff;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+#Seventh h2{
+    font-size: 1.5rem;
+    color: #212529;
+}
+
+#Seventh p{
+    color: #212529;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+#Eighth{
+    text-align: left;
+    background-color: #fff;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+#Eighth h2{
+    font-size: 1.5rem;
+    color: #212529;
+}
+
+#Eighth p{
+    color: #212529;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+#Signup{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-masthead.jpg);
+    background-position: center;
+    background-size: auto;
+    text-align: center;
+    padding: 4rem 0;
+}
+
+.signup-text{
+width: 45%;
+margin: auto;
+}
+
+.signup-text h2{
+    font-size: 30px;
+    color: #fff;
+}
+
+.signup-form{
+margin-top: 35px;
+}
+
+.signup-form input{
+    padding: 12px 0 12px 15px;
+    width: 30%;
+    outline: none;
+    bottom: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.signup-form button{
+background-color: #0d6efd;
+color: #fff;
+padding: 11px 20px;
+border-radius: 5px;
+border: none;
+font-weight: bold;
+margin-left: 20px;
+}
+i{
+    background-color: #fff;
+    color: #0d6efd;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 20px;
+}
